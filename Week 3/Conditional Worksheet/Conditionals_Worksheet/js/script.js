@@ -55,3 +55,14 @@ if(answer >= 200){
 //Grade Letter Calculator
 //This will tell the user the letter grade of their last class.
 
+var grade = prompt("What was your grade in your last class?");
+
+
+
+
+
+
+
+
+
+
