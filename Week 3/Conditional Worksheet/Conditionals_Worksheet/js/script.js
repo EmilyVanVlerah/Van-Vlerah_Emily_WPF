@@ -103,6 +103,11 @@ var backRight = prompt("What is the psi for your back right tire?");
 var tiresPreasure = [frontLeft, frontRight, backLeft, backRight];
 
 
+if(frontLeft == specFront && frontRight == specFront){
+	alert("The front tires pass spec!");
+}else{
+	alert("Get your front tires chacked out!");
+}
 
 
 
