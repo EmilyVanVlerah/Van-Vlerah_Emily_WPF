@@ -72,6 +72,12 @@ if(grade >= 90){
 //Check the Login
 //This should print out a message to the user in the console telling the user whether their password and or user is correct or not.
 
+var user = "student@fullsail.edu";
+
+
+
+
+
 
 
 
