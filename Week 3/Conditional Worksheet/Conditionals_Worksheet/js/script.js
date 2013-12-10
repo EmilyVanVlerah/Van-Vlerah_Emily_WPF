@@ -75,6 +75,8 @@ if(grade >= 90){
 var user = "student@fullsail.edu";
 var password = "2013";
 
+alert("Your username is:" + " " + user + "\nYour password is:" + " " + password);
+
 
 
 
