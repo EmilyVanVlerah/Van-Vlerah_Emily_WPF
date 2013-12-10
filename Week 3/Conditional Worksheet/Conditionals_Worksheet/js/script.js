@@ -92,7 +92,7 @@ if(username == user && password == passwordPrompt){
 //This should infor the user whether htier tire pressure is good or not.
 
 var specFront = prompt("What is the spec psi for your front tires?");
-
+var specBack = prompt("What is the spec psi for your back tires?");
 
 
 
