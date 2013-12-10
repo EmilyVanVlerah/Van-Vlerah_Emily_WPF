@@ -130,6 +130,8 @@ if(age >= 55 || age < 10){
 	alert("The ticket price is:" + " " + discountPrice + " " + "Dollars.");
 }else if(time == specialTimeOne || time == specialTimeTwo){
 	alert("The ticket price is:" + " " + discountPrice + " " + "Dollars.");
+}else{
+	alert("The ticket price is:" + " " + regularPrice + " " + "Dollars.");
 }
 
 
