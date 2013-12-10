@@ -77,7 +77,7 @@ var password = "2013";
 
 alert("Your username is:" + " " + user + "\nYour password is:" + " " + password);
 
-
+var username = prompt("Please enter in your username here:");
 
 
 
