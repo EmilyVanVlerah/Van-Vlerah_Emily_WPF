@@ -69,7 +69,8 @@ if(grade >= 90){
 	console.log("You have a" + " " + grade + "%, which means you have earned a(n) F in the class!");
 }
 
-
+//Check the Login
+//This should print out a message to the user in the console telling the user whether their password and or user is correct or not.
 
 
 
