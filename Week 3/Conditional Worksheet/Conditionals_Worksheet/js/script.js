@@ -61,6 +61,8 @@ if(grade >= 90){
 	console.log("You have a" + " " + grade + " " + "%, which means you have earned a(n) A in the class!");
 }else if(grade >= 80){
 	console.log("You have a" + " " + grade + " " + "%, which means you have earned a(n) B in the class!");
+}else if(grade >= 73){
+	console.log("You have a" + " " + grade + " " + "%, which means you have earned a(n) C in the class!");
 }
 
 
