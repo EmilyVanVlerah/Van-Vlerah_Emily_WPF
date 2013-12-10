@@ -48,7 +48,7 @@ var answer = first * mpg;
 if(answer >= 200){
 	alert("You can make it without stopping for gas!");
 }else{
-	var 
+	var show = "You have" + " " + first + " " + "gallons of gas in your tank, you better get gas now while you can.";
 }
 
 
