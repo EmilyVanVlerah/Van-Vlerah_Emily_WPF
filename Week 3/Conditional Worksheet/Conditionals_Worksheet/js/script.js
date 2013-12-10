@@ -44,7 +44,9 @@ var tankCapacity = prompt("How much gas does your car hold?");
 
 var answer = (tankCapacity * gaugeReading) * mpg;
 
-
+if(answer >= 200){
+	alert("You can make it without stopping for gas!");
+}
 
 
 
