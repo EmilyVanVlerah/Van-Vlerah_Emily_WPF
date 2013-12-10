@@ -82,6 +82,8 @@ var passwordPrompt = prompt("Please enter in your password here:");
 
 if(username == user && password == passwordPrompt){
 	console.log("Welcome" + " " + user);
+}else if(username != user){
+	console.log("User not found. Try again.");
 }
 
 
