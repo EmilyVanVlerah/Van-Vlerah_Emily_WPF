@@ -58,13 +58,13 @@ if(answer >= 200){
 var grade = prompt("What was your grade in your last class?");
 
 if(grade >= 90){
-	console.log("You have a" + " " + grade + " " + "%, which means you have earned a(n) A in the class!");
+	console.log("You have a" + " " + grade + "%, which means you have earned a(n) A in the class!");
 }else if(grade >= 80){
-	console.log("You have a" + " " + grade + " " + "%, which means you have earned a(n) B in the class!");
+	console.log("You have a" + " " + grade + "%, which means you have earned a(n) B in the class!");
 }else if(grade >= 73){
-	console.log("You have a" + " " + grade + " " + "%, which means you have earned a(n) C in the class!");
-}
-
+	console.log("You have a" + " " + grade + "%, which means you have earned a(n) C in the class!");
+}else if(grade >= 70){
+	console.log("You have a" + " " + grade + "%, which means you have earned a(n) D in the class!");
 
 
 
