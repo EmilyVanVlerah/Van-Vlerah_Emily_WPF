@@ -40,7 +40,7 @@ if(unitInput == celsius){
 
 var mpg = prompt("How much is your mpg?");
 var gaugeReading = prompt("How much do you have in the car right now?");
-
+var tankCapacity = prompt("How much gas does your car hold?");
 
 
 
