@@ -84,6 +84,8 @@ if(username == user && password == passwordPrompt){
 	console.log("Welcome" + " " + user);
 }else if(username != user){
 	console.log("User not found. Try again.");
+}else if(username == user && password != passwordPrompt){
+	console.log("Password does not match our records.");
 }
 
 
