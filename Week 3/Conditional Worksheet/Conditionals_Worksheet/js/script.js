@@ -125,7 +125,8 @@ var specialTimeOne = 3;
 var specialTimeTwo = 5;
 
 var time = prompt("What time are you going to the movies?");
-var senior = prompt("Do you have any seniors (55 and older)?");
+var senior = prompt("Do you have any seniors attending (55 and older)?");
+var young = prompt("Do you have any young kids attending (Under 10)?");
 
 
 
