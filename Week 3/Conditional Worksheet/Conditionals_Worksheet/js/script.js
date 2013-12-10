@@ -91,5 +91,10 @@ if(username == user && password == passwordPrompt){
 //Tire Preasure
 //This should infor the user whether htier tire pressure is good or not.
 
+var specFront = prompt("What is the spec psi for your front tires?");
+
+
+
+
 
 
