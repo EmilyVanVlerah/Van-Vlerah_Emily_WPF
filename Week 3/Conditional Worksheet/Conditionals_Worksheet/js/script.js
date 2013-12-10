@@ -35,6 +35,8 @@ if(unitInput == celsius){
 	alert(showCelcius);
 }
 
+//Last Chance for Gas!
+//The user will be able to tell whether they should stop for fuel or not.
 
 
 
