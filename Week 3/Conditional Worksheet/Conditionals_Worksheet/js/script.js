@@ -106,9 +106,14 @@ var tiresPreasure = [frontLeft, frontRight, backLeft, backRight];
 if(frontLeft == specFront && frontRight == specFront){
 	alert("The front tires pass spec!");
 }else{
-	alert("Get your front tires chacked out!");
+	alert("Get your front tires checked out!");
 }
 
+if(backLeft == specBack && backRight == specBack){
+	alert("The back tires pass spec!");
+}else{
+	alert("Get your back tired checked out!");
+}
 
 
 
