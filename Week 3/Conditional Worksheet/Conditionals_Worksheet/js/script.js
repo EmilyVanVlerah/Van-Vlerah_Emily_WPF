@@ -96,6 +96,6 @@ var specBack = prompt("What is the spec psi for your back tires?");
 
 var frontLeft = prompt("What is the psi for your front left tire?");
 var frontRight = prompt("What is the psi for your front right tire?");
-
+var backLeft = prompt("What is the psi for your back left tire?");
 
 
