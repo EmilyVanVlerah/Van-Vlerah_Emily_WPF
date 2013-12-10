@@ -39,8 +39,9 @@ if(unitInput == celsius){
 //The user will be able to tell whether they should stop for fuel or not.
 
 var mpg = prompt("How much is your mpg?");
-var gaugeReading = prompt("How much do you have in the car right now?");
+var gaugeReading = prompt("What is the percentage of the fuel remaining?");
 var tankCapacity = prompt("How much gas does your car hold?");
+
 
 
 
