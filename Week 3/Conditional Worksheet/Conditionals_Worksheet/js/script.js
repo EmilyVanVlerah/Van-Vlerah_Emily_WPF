@@ -127,7 +127,9 @@ var time = prompt("What time are you going to the movies?");
 var age = prompt("What is your age?");
 
 if(age >= 55 || age < 10){
-	alert("The ticket price is" + discountPrice);
+	alert("The ticket price is:" + " " + discountPrice + " " + "Dollars.");
+}else if(time == specialTimeOne || time == specialTimeTwo){
+	alert("The ticket price is:" + " " + discountPrice + " " + "Dollars.");
 }
 
 
