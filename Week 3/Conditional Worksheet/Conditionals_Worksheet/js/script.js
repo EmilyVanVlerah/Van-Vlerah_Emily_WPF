@@ -80,7 +80,7 @@ alert("Your username is:" + " " + user + "\nYour password is:" + " " + password)
 var username = prompt("Please enter in your username here:");
 var passwordPrompt = prompt("Please enter in your password here:");
 
-if(username == user){
+if(username == user && password == passwordPrompt){
 	console.log("Welcome" + " " + user);
 }
 
