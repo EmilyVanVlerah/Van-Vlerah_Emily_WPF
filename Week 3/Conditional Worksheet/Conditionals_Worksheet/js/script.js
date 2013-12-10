@@ -52,5 +52,6 @@ if(answer >= 200){
 	alert(show);
 }
 
-
+//Grade Letter Calculator
+//This will tell the user the letter grade of their last class.
 
