@@ -100,3 +100,10 @@ var backLeft = prompt("What is the psi for your back left tire?");
 var backRight = prompt("What is the psi for your back right tire?");
 
 
+var tiresPreasure = [frontLeft, frontRight, backLeft, backRight];
+
+
+
+
+
+
