@@ -38,5 +38,7 @@ if(unitInput == celsius){
 //Last Chance for Gas!
 //The user will be able to tell whether they should stop for fuel or not.
 
+var mpg = prompt("How much is your mpg?");
+
 
 
