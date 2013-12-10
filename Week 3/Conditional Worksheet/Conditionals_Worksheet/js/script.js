@@ -42,7 +42,7 @@ var mpg = prompt("How much is your mpg?");
 var gaugeReading = prompt("What is the percentage of the fuel remaining?");
 var tankCapacity = prompt("How much gas does your car hold?");
 
-
+var answer = (tankCapacity * gaugeReading) * mpg;
 
 
 
