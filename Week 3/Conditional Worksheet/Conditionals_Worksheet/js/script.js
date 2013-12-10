@@ -115,5 +115,13 @@ if(backLeft == specBack && backRight == specBack){
 	alert("Get your back tired checked out!");
 }
 
+//Movie Ticket Price
+//This should help the user find out their ticket price for the movies.
+
+
+
+
+
+
 
 
