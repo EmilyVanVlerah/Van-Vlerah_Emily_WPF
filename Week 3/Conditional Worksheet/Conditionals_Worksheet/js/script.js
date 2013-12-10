@@ -118,7 +118,11 @@ if(backLeft == specBack && backRight == specBack){
 //Movie Ticket Price
 //This should help the user find out their ticket price for the movies.
 
+var seniorYoungPrice = 7.00
+var regularPrice = 12.00
+var specialTime = 7.00
 
+var 
 
 
 
