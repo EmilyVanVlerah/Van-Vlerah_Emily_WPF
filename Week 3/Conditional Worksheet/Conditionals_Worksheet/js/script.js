@@ -1,5 +1,5 @@
 // Emily Van Vlerah
-// Decemeber 9th, 2013
+// Decemeber 10th, 2013
 // Conditionals Worksheet
 
 //Stuff You Face I
@@ -57,7 +57,9 @@ if(answer >= 200){
 
 var grade = prompt("What was your grade in your last class?");
 
-
+if(grade >= 90){
+	console.log("You have a" + " " + grade + " " + "%, which means you have earned a(n) A in the class!");
+}
 
 
 
