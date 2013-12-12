@@ -21,6 +21,7 @@ if(commints >= commitPolicy){
 	alert("Sorry, you may have recieved a zero on your assignment.");
 }*/
 
+//If their commits are greater than or equal to the commit policy then they get the good job; if not the get the different answer.
 answer = (commits >= commitPolicy) ? "Good job, you didn't get a zero on the assignment." : "Sorry, you might want to find more to commit to your repository.";
 alert(answer);
 
@@ -40,6 +41,7 @@ if(passingClass >= lowGradeLevel){
 	alert("Sorry, you may have to work harder on the next class.");
 }*/
 
+//If the users grade is greater than or equal to the low grade level, then they get a good job. If it's below the low grade level then they get the other message.
 (passingClass >= lowGradeLevel) ? alert("Good job, you passed another class.") : alert("Sorry, you may have to work harder on the next class.");
 
 alert("If you wish to recalculate, please refresh the page.");
