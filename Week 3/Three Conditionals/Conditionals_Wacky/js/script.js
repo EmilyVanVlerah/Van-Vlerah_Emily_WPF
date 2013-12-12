@@ -12,6 +12,7 @@ var currentHealth = prompt("What is your current HP level?");
 var maxHealth = prompt("What is you Max HP level?");
 var potions = prompt("How many HP potions do you have");
 
+//This takes the users current health divides it by their max health and then times it by 100 to make sure you get your right percentage of HP.
 var hpLevel = (currentHealth / maxHealth) * 100;
 var n=hpLevel.toFixed(0);
 var show = "This is the percent of your HP level:" + " " + n + " " + "Percent";
