@@ -13,8 +13,9 @@ var tpGauge = 30;
 
 var rollsUsed = prompt("How many rolls do you or your family use in a week?");
 var months = prompt("How many months do you wish to calculate?");
-
+//This will take the user's amount of rolls of TP used times it by the variable of weeks in a month. Then mulitiplies that number by the amount of months the user wants to calculate.
 var amount = (rollsUsed * weekMonth) * months;
+//This is calculating and telling the amount of TP the user should gauge to use and whether they need to go get more.
 var tpLevel = months * tpGauge;
 
 var answer = "This is how many rolls you or your family goes through:" + " " + amount + " " + "Rolls";
