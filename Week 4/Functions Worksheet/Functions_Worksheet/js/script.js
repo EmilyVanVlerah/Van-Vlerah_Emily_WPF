@@ -4,7 +4,7 @@
 
 //Circumference
 //Calculate the circumference of a circle.
-
+//The formula for the circumference of a circle is radius * pi * 2
 var calcCircumference = function(p, r){//defining 
 	var circumference = (p * r) * 2;
 	return circumference;//return the circumference of the circle.
