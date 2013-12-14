@@ -44,9 +44,14 @@ function calcArea(){
 console.log(width);
 calcArea();
 
+//Functions - Parameters and Arguments
 
+calcArea();
 
-
+function calcArea(){
+	var area = w * h;
+	console.log(area);
+}
 
 
 
