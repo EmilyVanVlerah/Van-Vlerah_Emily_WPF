@@ -19,7 +19,10 @@ console.log("The circumference of the circle is" + " " + total);
 
 
 
-
+function calcStings(w){
+	var amount = w * 8.67;
+	return amount;
+}
 
 
 
