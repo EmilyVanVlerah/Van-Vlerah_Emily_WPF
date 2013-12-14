@@ -16,7 +16,7 @@ console.log("The circumference of the circle is" + " " + total);
 
 //Stung!
 //Calculate the amount of bee stings it takes to kill an certain animal.
-
+//A rhino can weight a max of 7,920 lbs.
 var answer = calcStings(7920);
 
 function calcStings(w){//parameter for the weight of the victum
