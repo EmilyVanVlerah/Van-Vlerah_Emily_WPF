@@ -89,12 +89,12 @@ function calcAreaP(width, height){
 //AKA: closures
 //You must define your function first, then invoke the function next when doing Anonymous Functions.
 
-var calcArea = function(width, height){
-	//code to run
+var calcArea = function(width, height){//defining
+//code the function runs
 	var area = width * height;
 	return area;
 }
 
-var a = calcArea(20, 30);
+var a = calcArea(20, 30);//invoking
 
 console.log(a);
