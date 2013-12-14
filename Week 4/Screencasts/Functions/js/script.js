@@ -69,9 +69,21 @@ function calcArea(w, h){//w=30, h=20
 	var area = w * h;
 	return area;//function spitting the info out
 }
-console.log(area);
+console.log(total);
 
+//Functions - Function vs Procedure
 
+//this is a function
+function calcAreaF(width, height){
+	var area = width * height;
+	return area;
+}
+
+//this is a procedure
+function calcAreaP(width, height){
+	var area = width * height;
+	console.log(area); //no return
+}
 
 
 
