@@ -5,12 +5,12 @@
 //Circumference
 //Calculate the circumference of a circle.
 
-var calcCircumference = function(p, r){
+var calcCircumference = function(p, r){//defining 
 	var circumference = (p * r) * 2;
 	return circumference;
 }
 
-var total = calcCircumference(3.14, 3);
+var total = calcCircumference(3.14, 3);//invoking 
 
 console.log("The circumference of the circle is" + " " + total);
 
