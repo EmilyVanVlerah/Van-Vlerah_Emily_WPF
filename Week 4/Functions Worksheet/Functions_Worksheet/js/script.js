@@ -21,7 +21,7 @@ var answer = calcStings(7920);
 
 function calcStings(w){//parameter for the weight of the victum
 	var amount = w * 8.67;
-	return amount;
+	return amount;//return the number of bee stings it takes to kill a rhino.
 }
 
 console.log("It takes" + " " + answer + " " + "bee stings to kill a rhino.");
