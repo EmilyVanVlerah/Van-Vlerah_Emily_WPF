@@ -53,14 +53,12 @@ function calcArea(w, h){//w=30, h=20
 	console.log(area);
 }
 
-
-
-function dogYears(age){
+function dogYears(age){//parameters
 	var dogYears = age * 7;
 	console.log("Sparky is" + dogYears = "years old.");
 }
 var age1 = 4
-dogYears(age1);
+dogYears(age1);//arguments
 dogYears(5);
 
 
