@@ -61,6 +61,19 @@ var age1 = 4
 dogYears(age1);//arguments
 dogYears(5);
 
+//Functions - Returning Values
+
+calcArea(30, 20);
+
+function calcArea(w, h){//w=30, h=20
+	var area = w * h;
+	console.log(area);
+}
+
+
+
+
+
 
 
 
