@@ -17,7 +17,7 @@ console.log("The circumference of the circle is" + " " + total);
 //Stung!
 //Calculate the amount of bee stings it takes to kill an certain animal.
 
-
+calcStings(7920)
 
 function calcStings(w){
 	var amount = w * 8.67;
