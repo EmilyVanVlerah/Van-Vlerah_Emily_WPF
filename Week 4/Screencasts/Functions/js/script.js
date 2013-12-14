@@ -46,9 +46,9 @@ calcArea();
 
 //Functions - Parameters and Arguments
 
-calcArea();
+calcArea(30, 20);
 
-function calcArea(){
+function calcArea(w, h){
 	var area = w * h;
 	console.log(area);
 }
