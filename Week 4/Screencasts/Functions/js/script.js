@@ -85,7 +85,12 @@ function calcAreaP(width, height){
 	console.log(area); //no return
 }
 
+//Functions - Anonymous Functions
+//AKA: closures
 
+function(){
+	//code to run
+}
 
 
 
