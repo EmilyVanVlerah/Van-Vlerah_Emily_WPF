@@ -24,7 +24,7 @@ function calcStings(w){
 	return amount;
 }
 
-console.log("It takes" + answer + "bee stings to kill a rhino.");
+console.log("It takes" + " " + answer + " " + "bee stings to kill a rhino.");
 
 
 
