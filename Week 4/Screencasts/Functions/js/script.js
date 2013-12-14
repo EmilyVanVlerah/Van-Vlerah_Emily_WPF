@@ -63,11 +63,11 @@ dogYears(5);
 
 //Functions - Returning Values
 
-calcArea(30, 20);
+var total = calcArea(30, 20);
 
 function calcArea(w, h){//w=30, h=20
 	var area = w * h;
-	return area;
+	return area;//function spitting the info out
 }
 console.log(area);
 
