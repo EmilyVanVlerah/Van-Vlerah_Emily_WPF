@@ -12,7 +12,7 @@ function calcCircumference(p, r){
 	return circumference;
 }
 
-
+console.log(total);
 
 
 
