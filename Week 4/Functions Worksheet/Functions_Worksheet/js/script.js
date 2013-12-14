@@ -19,7 +19,7 @@ console.log("The circumference of the circle is" + " " + total);
 
 var answer = calcStings(7920);
 
-function calcStings(w){
+function calcStings(w){//parameter for the weight of the victum
 	var amount = w * 8.67;
 	return amount;
 }
