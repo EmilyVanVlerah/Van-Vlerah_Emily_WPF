@@ -7,7 +7,7 @@
 
 var calcCircumference = function(p, r){//defining 
 	var circumference = (p * r) * 2;
-	return circumference;
+	return circumference;//return the circumference of the circle.
 }
 
 var total = calcCircumference(3.14, 3);//invoking 
