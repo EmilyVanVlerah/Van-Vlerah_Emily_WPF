@@ -12,7 +12,7 @@ alert("Welcome to the Average Damage output calculator for your Weapon.");
 var elementalResistance = 1.30;
 
 var whr = prompt("What is your Weapon Hit Rate?");
-
+var sp = prompt("What is the Special Rate?");
 
 
 
