@@ -14,7 +14,7 @@ var hr = prompt("What is your Hit Rate?");
 var base = prompt("What is the Base?");
 var random = prompt("What is the Random?");
 var stat = prompt("What is the Stt Damage?");
-
+var spell = prompt("What is the Spell Stat?");
 
 
 
