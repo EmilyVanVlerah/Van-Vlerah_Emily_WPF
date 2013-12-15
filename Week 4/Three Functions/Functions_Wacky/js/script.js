@@ -7,7 +7,7 @@
 //Average Spell Damage = Resistance * (Hit Rate) * [Base + Random / 2 + (Stat Damage) * (Spell Stat) / 2] 
 
 alert("Welcome to the Average Damage output calculator for your Spells.");
-
+//The standard elemental resistance that is used to calculate the average Damage output for spell is 130 percent.
 var elementalResistance = 1.30;
 
 var hr = prompt("What is your Hit Rate?");
