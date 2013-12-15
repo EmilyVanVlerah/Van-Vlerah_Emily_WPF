@@ -14,7 +14,7 @@ var elementalResistance = 1.30;
 var whr = prompt("What is your Weapon Hit Rate?");
 var sp = prompt("What is the Special Rate?");
 var nwp = prompt("What is the Normal Weapon Power?");
-
+var wshr = prompt("What is the Weapon Special Hit Rate?");
 
 
 
