@@ -6,7 +6,7 @@
 //This is the formula:
 //HP recovered drinking one Health Potion = (50 + Level/3) to (100 + Level/3 + LUK/2 + END/2)
 
-
+alert("Welcome to the Health Potion Calculator.");
 
 
 
