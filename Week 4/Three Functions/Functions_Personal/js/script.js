@@ -12,12 +12,13 @@ var level = prompt("What is the level of your character?");
 var luck = prompt("What is your character's LUK Stat?");
 var endurance = prompt("What is your character's END Stat?");
 
-var answer = calcHealthA(level);
+var answerOne = calcHealthA(level);
 
 function calcHealthA(l){
 	var first = (50 + l/3)
+	return first
 }
-
+console.log(answerOne);
 
 
 
