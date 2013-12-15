@@ -10,10 +10,10 @@ alert("Welcome to the Average Damage output calculator for your Spells.");
 
 var elementalResistance = 1.30;
 
-var whr = prompt("What is your Weapon Hit Rate?");
-var sr = prompt("What is the Special Rate?");
-var nwp = prompt("What is the Normal Weapon Power?");
-var wshr = prompt("What is the Weapon Special Hit Rate?");
+var hr = prompt("What is your Hit Rate?");
+var base = prompt("What is the Base?");
+var random = prompt("What is the Random?");
+var stat = prompt("What is the Stt Damage?");
 
 
 
