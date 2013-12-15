@@ -18,7 +18,7 @@ var spell = prompt("What is the Spell Stat?");
 
 function calcSpellDamage(){
 	var answer = elementalResistance * hr * [base + random/2 + stat * spell/2];
-	
+	console.log(answer "is your Average Spell Damage.");
 }
 
 
