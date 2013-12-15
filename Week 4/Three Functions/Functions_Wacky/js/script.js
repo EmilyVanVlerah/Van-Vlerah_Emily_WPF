@@ -4,6 +4,8 @@
 
 //This will calculate the average damage output for your weapon.
 //Meaning average amount of damage the weapon deals each turn.
+//The formula for this is:
+//Average Weapon Damage = Resistance * [Weapon Hit Rate * (1 - Special Rate) * (Normal Weapon Power) + (Weapon Special Hit Rate) * (Special Rate) * (Weapon Special Power)]
 
 alert("Welcome to the Average Damage output calculator for your Weapon.")
 
