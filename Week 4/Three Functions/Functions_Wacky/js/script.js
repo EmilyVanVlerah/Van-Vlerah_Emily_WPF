@@ -22,7 +22,7 @@ function calcSpellDamage(){
 }
 
 good = (answer >= 500) ? "That is a good spell and you should keep it." : "That isn't such a good spell, you might want to sell it.";
-
+console.log(good);
 
 
 
