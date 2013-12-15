@@ -7,7 +7,7 @@
 
 alert("Welcome to the Average Damage output calculator for your Weapon.")
 
-
+var elementalResistance = 1.30;
 
 
 
