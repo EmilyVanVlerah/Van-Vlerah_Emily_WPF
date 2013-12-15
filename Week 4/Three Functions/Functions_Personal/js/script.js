@@ -8,7 +8,7 @@
 
 alert("Welcome to the Health Potion Calculator.");
 
-
+var level = prompt("What is the level of your character?");
 
 
 
