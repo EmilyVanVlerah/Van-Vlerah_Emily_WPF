@@ -16,7 +16,10 @@ var random = prompt("What is the Random?");
 var stat = prompt("What is the Stt Damage?");
 var spell = prompt("What is the Spell Stat?");
 
-
+function calcSpellDamage(){
+	var answer = elementalResistance * hr * [base + random/2 + stat * spell/2];
+	
+}
 
 
 
