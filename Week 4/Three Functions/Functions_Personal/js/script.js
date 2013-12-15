@@ -9,6 +9,8 @@
 alert("Welcome to the Health Potion Calculator.");
 
 var level = prompt("What is the level of your character?");
+var luck = prompt("What is your character's LUK Stat?");
+
 
 
 
