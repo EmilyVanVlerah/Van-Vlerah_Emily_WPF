@@ -15,10 +15,10 @@ var random = prompt("What is the Random?");
 var stat = prompt("What is the Stat Damage?");
 var spell = prompt("What is the Spell Stat?");
 
-var print = calcSpell(hit, base, random, stat, spell);
+var print = calcSpell(hit, base, random, stat, spell);//Arguments
 
-function calcSpell(h, b, r, d, s){
-	var elementalResistance = 1.30;
+function calcSpell(h, b, r, d, s){//Parameters
+	var elementalResistance = 1.30;//standard for enemys elemental resistance to be 130 percent.
 	var answer = elementalResistance * (h/100) * [b + r/2 + d * s/2];
 	return answer;
 }
