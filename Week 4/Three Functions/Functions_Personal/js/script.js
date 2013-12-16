@@ -16,7 +16,7 @@ var answerOne = calcHealthA(level);
 
 function calcHealthA(l){
 	var first = (50 + l/3)
-	return first
+	return first;
 }
 console.log(answerOne);
 
@@ -24,6 +24,7 @@ console.log(answerOne);
 
 function calcHeathB(){
 	var second = (100 + l/3 + k/2 + e/2);
+	return second;
 }
 
 
