@@ -14,14 +14,14 @@ var luck = prompt("What is your character's LUK Stat?");
 var endurance = prompt("What is your character's END Stat?");
 var intellect = prompt("What is your character's INT Stat?");
 
-var answerOne = calcHealthA(level);
+var healthOne = calcHealthA(level);
 
 function calcHealthA(l){
 	var first = (50 + l/3)
 	return first;
 }
 
-var answerTwo = calcHeathB(level, luck, endurance);
+var healthTwo = calcHeathB(level, luck, endurance);
 
 function calcHeathB(l, k, e){
 	var second = (100 + l/3 + k/2 + e/2);
@@ -31,4 +31,4 @@ function calcHeathB(l, k, e){
 
 if()
 
-//14 comments so far
+//16 comments so far
