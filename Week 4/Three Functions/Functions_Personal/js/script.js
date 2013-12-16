@@ -22,6 +22,12 @@ console.log(answerOne);
 
 
 
+function calcHeathB(){
+	var second = (100 + l/3 + k/2 + e/2);
+}
+
+
+
 
 
 
