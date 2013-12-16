@@ -20,13 +20,13 @@ function calcHealthA(l){
 }
 console.log(answerOne);
 
+var answerTwo = calcHeathB(level, luck, endurance);
 
-
-function calcHeathB(){
+function calcHeathB(l, k, e){
 	var second = (100 + l/3 + k/2 + e/2);
 	return second;
 }
-
+console.log(answerTwo);
 
 
 
