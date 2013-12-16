@@ -43,10 +43,6 @@ function calcManaB(l, k, i){
 	return second;
 }
 
-if(healthOne && manaOne){
-	console.log("Your HP recoverd is:" + " " + healthOne + " " + "and your MP recovered is:" + " " + manaOne + ".");
-}else{
-	console.log("Your HP recoverd is:" + " " + healthTwo + " " + "and your MP recovered is:" + " " + manaTwo + ".");	
-}
-
+answer = (healthOne < 75 && manaOne < 75) ? "Your HP an MP was less than 75 percent." : "Your HP and MP was greater than 75 percent.";
+console.log(good);
 
