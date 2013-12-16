@@ -31,4 +31,4 @@ console.log("Your HP recovered is:" + " " + answerTwo);
 
 if()
 
-//13 comments so far
+//14 comments so far
