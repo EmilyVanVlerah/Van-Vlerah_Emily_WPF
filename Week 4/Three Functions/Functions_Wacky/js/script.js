@@ -12,12 +12,15 @@ alert("Welcome to the Average Damage output calculator for your Spells.");
 var hit = prompt("What is your Hit Rate?");
 var base = prompt("What is the Base?");
 var random = prompt("What is the Random?");
-var stat = prompt("What is the Stt Damage?");
+var stat = prompt("What is the Stat Damage?");
 var spell = prompt("What is the Spell Stat?");
 
-function calcSpellDamage(){
-	var elemental = 1.30;
-	var answer = elementalResistance * hr * [base + random/2 + stat * spell/2];
+var print = calcSpell(level);
+
+function calcSpell(h, b, r, d, s){
+	var elementalResistance = 1.30;
+	var answer = elementalResistance * (h/100) * [b + r/2 + d * s/2];
+	return answer;
 }
 
 if(answer >= 500){
