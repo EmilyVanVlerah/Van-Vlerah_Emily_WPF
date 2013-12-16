@@ -1,8 +1,9 @@
 //Emily Van Vlerah
 //December 15h, 2013
-//Asignment: Functions - Functions_Wacky
+//Asignment: Functions - Functions_Personal
 
 //This will calculate how much a health potion can heal you.
+//Choose to do this for personal because I love to play video games.
 //This is the formula:
 //HP recovered drinking one Health Potion = (50 + Level/3) to (100 + Level/3 + LUK/2 + END/2)
 
@@ -28,7 +29,6 @@ function calcHeathB(l, k, e){
 }
 console.log("Your HP recovered is:" + " " + answerTwo);
 
+if()
 
-
-
-
+//13 comments so far
