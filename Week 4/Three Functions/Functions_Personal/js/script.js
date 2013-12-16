@@ -12,6 +12,7 @@ alert("Welcome to the Health Potion Calculator.");
 var level = prompt("What is the level of your character?");
 var luck = prompt("What is your character's LUK Stat?");
 var endurance = prompt("What is your character's END Stat?");
+var intellect = prompt("What is your character's INT Stat?");
 
 var answerOne = calcHealthA(level);
 
@@ -19,7 +20,6 @@ function calcHealthA(l){
 	var first = (50 + l/3)
 	return first;
 }
-console.log("Your HP recovered is:" + " " + answerOne);
 
 var answerTwo = calcHeathB(level, luck, endurance);
 
@@ -27,7 +27,7 @@ function calcHeathB(l, k, e){
 	var second = (100 + l/3 + k/2 + e/2);
 	return second;
 }
-console.log("Your HP recovered is:" + " " + answerTwo);
+
 
 if()
 
