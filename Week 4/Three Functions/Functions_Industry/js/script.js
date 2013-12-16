@@ -16,7 +16,7 @@ var calcTemp = function(F){
 var answer = calcTemp(computerTemp);
  
 if(answer >= 70){
-	console.log("Your computer temperature is:" + answer + "Celsius. You might want to shut down your computer.");
+	console.log("Your computer temperature is:" + " " + answer + " " + "Celsius. You might want to shut down your computer.");
 }else if(answer >= 60){
 	console.log("Your computer temperature is:" + answer + "Celsius. You getting near the danger zone.");
 }else{
