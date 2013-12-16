@@ -38,6 +38,12 @@ function calcManaA(l){
 
 
 
+function calcManaB(l, k, i){
+	var second = (100 + l/3 + k/2 + i/2)
+}
+
+
+
 
 if()
 
