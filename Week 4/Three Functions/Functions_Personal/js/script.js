@@ -2,10 +2,11 @@
 //December 15h, 2013
 //Asignment: Functions - Functions_Personal
 
-//This will calculate how much a health potion can heal you.
+//This will calculate how much a health potion can heal you and mana will be regained.
 //Choose to do this for personal because I love to play video games.
 //This is the formula:
 //HP recovered drinking one Health Potion = (50 + Level/3) to (100 + Level/3 + LUK/2 + END/2)
+//MP recovered drinking one Mana Potion = (50 + Level/3) to (100 + Level/3 + LUK/2 + INT/2)
 
 alert("Welcome to the Health and Mana Potion Calculator.");
 
