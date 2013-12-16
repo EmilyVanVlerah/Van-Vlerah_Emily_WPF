@@ -15,7 +15,7 @@ var random = prompt("What is the Random?");
 var stat = prompt("What is the Stat Damage?");
 var spell = prompt("What is the Spell Stat?");
 
-var print = calcSpell(level);
+var print = calcSpell(hit, base, random, stat, spell);
 
 function calcSpell(h, b, r, d, s){
 	var elementalResistance = 1.30;
@@ -23,10 +23,10 @@ function calcSpell(h, b, r, d, s){
 	return answer;
 }
 
-if(answer >= 500){
-	console.log("That spell's damage per turn is" + " " + answer + " " + ". You should keep and use that spell.");
+if(print >= 500){
+	console.log("That spell's damage per turn is" + " " + print + ". You should keep and use that spell.");
 }else{
-	console.log("That spell's damage per turn is" + " " + answer + " " + ". You should sell that spell.");	
+	console.log("That spell's damage per turn is" + " " + print + ". You should sell that spell.");	
 }
 
 
