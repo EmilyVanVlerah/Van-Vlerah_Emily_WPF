@@ -6,6 +6,7 @@
 //This is the formula:
 //(F - 32) * 5/9 = C
 
+var computerTemp = prompt("What is your computer's temperature in Fahrenheit?");
 
 
 
@@ -18,5 +19,4 @@
 
 
 
-
-//2 Commits
+//3 Commits
