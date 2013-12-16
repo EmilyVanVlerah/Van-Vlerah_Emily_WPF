@@ -44,5 +44,5 @@ function calcManaB(l, k, i){
 }
 
 answer = (healthOne < 75 && manaOne < 75) ? "Your HP an MP was less than 75 percent." : "Your HP and MP was greater than 75 percent.";
-console.log(good);
+console.log(answer);
 
