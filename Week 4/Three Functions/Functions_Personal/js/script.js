@@ -18,7 +18,7 @@ function calcHealthA(l){
 	var first = (50 + l/3)
 	return first;
 }
-console.log(answerOne "is your HP.");
+console.log("Your HP recovered is:" + " " + answerOne);
 
 var answerTwo = calcHeathB(level, luck, endurance);
 
@@ -26,7 +26,7 @@ function calcHeathB(l, k, e){
 	var second = (100 + l/3 + k/2 + e/2);
 	return second;
 }
-console.log(answerTwo "is your HP.");
+console.log("Your HP recovered is:" + " " + answerTwo);
 
 
 
