@@ -20,7 +20,11 @@ do{//do as long as; this code in here will be ran before
 }
 while(c > 0);//this condition is true; this condition can be decided as true or false.
 
-//
+//For Loop
+//all loops combined together
 
+for(var i = 10; i > 0; i--){
+	console.log(i + "kegs on the wall.")
+}
 
 
