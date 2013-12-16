@@ -15,7 +15,7 @@ var calcTemp = function(F){
 
 var answer = calcTemp(computerTemp);
  
-if(answer >= 70){
+if(answer >= 70){//If the temperature is higher than 70 degrees celsius, by most manufacture's standards, your computer is over heating.
 	console.log("Your computer temperature is:" + " " + answer + " " + "Celsius. You might want to shut down your computer.");
 }else if(answer >= 60){
 	console.log("Your computer temperature is:" + " " + answer + " " + "Celsius. You getting near the danger zone.");
@@ -28,4 +28,4 @@ if(answer >= 70){
 
 
 
-//9 Commits
+//13 Commits
