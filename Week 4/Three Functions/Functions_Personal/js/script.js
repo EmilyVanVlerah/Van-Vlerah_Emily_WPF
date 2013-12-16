@@ -29,8 +29,11 @@ function calcHeathB(l, k, e){
 	return second;
 }
 
+var manaOne = calcManaA(level);
+
 function calcManaA(l){
 	var first = (50 + l/3);
+	return first;
 }
 
 
@@ -38,4 +41,4 @@ function calcManaA(l){
 
 if()
 
-//16 comments so far
+
