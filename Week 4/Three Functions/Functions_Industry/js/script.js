@@ -9,7 +9,7 @@
 
 var computerTemp = prompt("What is your computer's temperature in Fahrenheit?");
 
-var calcTemp = function(F){
+var calcTemp = function(F){//Only one parameter, unfortunately.
 	var celsius = (F - 32) * (5/9);
 	return celsius;
 }
@@ -29,4 +29,4 @@ if(answer >= 70){//If the temperature is higher than 70 degrees celsius, by most
 
 
 
-//13 Commits
+//15 Commits
