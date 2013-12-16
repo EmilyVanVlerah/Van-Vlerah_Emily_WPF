@@ -20,7 +20,7 @@ if(answer >= 70){
 }else if(answer >= 60){
 	console.log("Your computer temperature is:" + " " + answer + " " + "Celsius. You getting near the danger zone.");
 }else{
-	console.log("Your computer temperature is:" + answer + "Celsius. You are doing just fine on your temperature.");
+	console.log("Your computer temperature is:" + " " + answer + " " + "Celsius. You are doing just fine on your temperature.");
 }
 
 
