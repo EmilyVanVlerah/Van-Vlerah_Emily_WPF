@@ -3,6 +3,7 @@
 //Asignment: Functions - Functions_Industry
 
 //This will calculate the temperature of your computer and tell you whether it's in the danger zone or not.
+//Anyone should always look up the manufacture's standards for their CPU.
 //This is the formula:
 //(F - 32) * 5/9 = C
 
