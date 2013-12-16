@@ -44,7 +44,9 @@ function calcManaB(l, k, i){
 }
 
 if(healthOne && manaOne){
-	console.log("Your HP recoverd is:" + " " + healthOne + " " + "and your MP recovered is:" + " " + manaOne + ".")
+	console.log("Your HP recoverd is:" + " " + healthOne + " " + "and your MP recovered is:" + " " + manaOne + ".");
+}else{
+	console.log("Your HP recoverd is:" + " " + healthTwo + " " + "and your MP recovered is:" + " " + manaTwo + ".");	
 }
 
 
