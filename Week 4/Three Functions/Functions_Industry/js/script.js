@@ -14,7 +14,7 @@ var calcTemp = function(F){//Only one parameter, unfortunately.
 	return celsius;
 }
 
-var answer = calcTemp(computerTemp);
+var answer = calcTemp(computerTemp);//Figured out that I don't need a console.log for the function and to just go into the condtional to print out into the console.
  
 if(answer >= 70){//If the temperature is higher than 70 degrees celsius, by most manufacture's standards, your computer is over heating.
 	console.log("Your computer temperature is:" + " " + answer + " " + "Celsius. You might want to shut down your computer.");
