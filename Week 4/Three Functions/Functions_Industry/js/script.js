@@ -13,13 +13,15 @@ var calcTemp = function(F){
 	return celsius;
 }
 
-
 var answer = calcTemp(computerTemp);
+ 
+if(answer >= 70){
+	Console.log("Your computer temperature is:" + answer + "Celsius. You might want to shut down your computer.");
+}
 
 
 
 
 
 
-
-//5 Commits
+//6 Commits
