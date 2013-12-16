@@ -10,8 +10,15 @@ while (b > 0){//checks the condition
 	b--;//can incroment it by saying b++ but right not we are decromenting it. (increments or decrements the index)
 }
 
+//Do While Loop
+//Gives same print out as the one above. This isn't as popularly used.
+var c = 10;
 
-
+do{
+	console.log(c + "kegs on the wall");
+	c--;
+}
+while(c > 0);
 
 
 
