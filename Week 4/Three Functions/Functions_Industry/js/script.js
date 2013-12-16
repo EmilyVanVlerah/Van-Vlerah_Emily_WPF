@@ -10,7 +10,7 @@
 var computerTemp = prompt("What is your computer's temperature in Fahrenheit?");
 
 var calcTemp = function(F){//Only one parameter, unfortunately.
-	var celsius = (F - 32) * (5/9);
+	var celsius = (F - 32) * (5/9);//Convertion from fahrenheit to celsius.
 	return celsius;
 }
 
