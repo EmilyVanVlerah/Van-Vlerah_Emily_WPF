@@ -36,10 +36,11 @@ function calcManaA(l){
 	return first;
 }
 
-
+var manaTwo = calcManaB(level, luck, intellect);
 
 function calcManaB(l, k, i){
-	var second = (100 + l/3 + k/2 + i/2)
+	var second = (100 + l/3 + k/2 + i/2);
+	return second;
 }
 
 
