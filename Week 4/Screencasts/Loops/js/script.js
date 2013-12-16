@@ -14,13 +14,13 @@ while (b > 0){//checks the condition
 //Gives same print out as the one above. This isn't as popularly used.
 var c = 10;
 
-do{
+do{//do as long as; this code in here will be ran before 
 	console.log(c + "kegs on the wall");
 	c--;
 }
-while(c > 0);
+while(c > 0);//this condition is true; this condition can be decided as true or false.
 
-
+//
 
 
 
