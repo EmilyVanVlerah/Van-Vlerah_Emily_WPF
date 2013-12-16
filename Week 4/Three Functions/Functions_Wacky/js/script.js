@@ -18,13 +18,14 @@ var spell = prompt("What is the Spell Stat?");
 function calcSpellDamage(){
 	var elemental = 1.30;
 	var answer = elementalResistance * hr * [base + random/2 + stat * spell/2];
-	console.log(answer "is your Average Spell Damage.");
 }
 
-good = (answer >= 500) ? "That is a good spell and you should keep it." : "That isn't such a good spell, you might want to sell it.";
-console.log(good);
+if(answer >= 500){
+	console.log("That spell's damage per turn is" + " " + answer + " " + ". You should keep and use that spell.");
+}else{
+	console.log("That spell's damage per turn is" + " " + answer + " " + ". You should sell that spell.");	
+}
 
-//19 commits so far.
 
 
 
