@@ -9,7 +9,7 @@
 var computerTemp = prompt("What is your computer's temperature in Fahrenheit?");
 
 var calcTemp = function(F){
-	var celsius = (F * 1.8) + 32;
+	var celsius = (F - 32) * (5/9);
 	return celsius;
 }
 
@@ -28,4 +28,4 @@ if(answer >= 70){
 
 
 
-//6 Commits
+//9 Commits
