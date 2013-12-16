@@ -29,7 +29,9 @@ function calcHeathB(l, k, e){
 	return second;
 }
 
-
+function calcManaA(l){
+	var first = (50 + l/3);
+}
 
 
 
